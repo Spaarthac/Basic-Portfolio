@@ -10,7 +10,6 @@
     padding: 10px;
     border: 5px solid pink;
 }
-
 .menu{
     display: flex;
     justify-content: space-between;
@@ -18,5 +17,27 @@
 }
 .menu li{
     list-style: none;
-    
+}
+.body{
+    display: flex;
+}
+.contact{
+    font-size: 3em;
+    color:teal;
+}
+.main li{
+    list-style: none;
+}
+.right-box{
+    font-size: 2em;
+    color:teal;
+
+}
+.logo{
+    font-size: 3em;
+}
+.footer{
+    background-color: grey;
+    border-top:5px solid green;
+    text-align:center;
 }
