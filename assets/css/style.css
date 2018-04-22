@@ -20,6 +20,7 @@
 }
 .body{
     display: flex;
+    justify-content: space-around;
 }
 .contact{
     font-size: 3em;
