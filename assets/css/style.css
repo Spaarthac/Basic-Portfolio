@@ -18,27 +18,55 @@
 .menu li{
     list-style: none;
 }
-.body{
+.body1{
+    width:100%;
+    height:400px;
+    position: relative;
+    margin:0;
+    padding:0;
     display: flex;
     justify-content: space-around;
+    border:100px green;
+    background-color: lightgray;
+}
+.main-box{
+    background-color: white;
+    padding:20px;
+    width: 30em;
+    margin: 20px;
 }
 .contact{
     font-size: 3em;
     color:teal;
 }
-.main li{
+.input-box li{
     list-style: none;
+    -webkit-padding-start: 0px;
 }
 .right-box{
+    background-color: white;
+    padding:20px;
+    width: 18em;
+    height:30%;
+    margin: 20px;
+}
+.right-box1{
     font-size: 2em;
     color:teal;
-
 }
-.logo{
-    font-size: 3em;
+right-box2{
+    display: flex;
+    justify-content: space-evenly;
+    size:100px;
 }
 .footer{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    line-height: 60px;
     background-color: grey;
     border-top:5px solid green;
     text-align:center;
+    vertical-align: middle;
 }
